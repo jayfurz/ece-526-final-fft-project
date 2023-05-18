@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../fft_proj.srcs/sources_1/new/complex_multiplier.sv" \
+"../../../../fft_proj.srcs/sources_1/new/constant_multiplier_7071.sv" \
+"../../../../fft_proj.srcs/sources_1/new/fft4_radix2.sv" \
+"../../../../fft_proj.srcs/sources_1/new/fft_8point_radix2.sv" \
+"../../../../fft_proj.srcs/sim_1/new/tb_fft_8_point_radix2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

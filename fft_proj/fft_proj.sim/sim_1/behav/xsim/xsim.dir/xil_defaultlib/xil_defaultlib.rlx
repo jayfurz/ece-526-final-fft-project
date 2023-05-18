@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/classes/ece_526/final/fft_proj/fft_proj.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sim_1/new/tb_fft_8_point_radix2.sv,1683730170,systemVerilog,,,,tb_fft_8_point_radix2,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sim_1/new/tb_fft_radix2.sv,1683599433,systemVerilog,,,,tb_fft_radix2,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/complex_multiplier.sv,1683696903,systemVerilog,,D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/constant_multiplier_7071.sv,,complex_multiplier_7071,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/constant_multiplier_7071.sv,1683730115,systemVerilog,,D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/fft4_radix2.sv,,constant_multiplier_7071,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/fft4_radix2.sv,1683730818,systemVerilog,,D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/fft_8point_radix2.sv,,fft_radix2,,uvm,,,,,,
+D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sources_1/new/fft_8point_radix2.sv,1683730017,systemVerilog,,D:/classes/ece_526/final/fft_proj/fft_proj.srcs/sim_1/new/tb_fft_8_point_radix2.sv,,fft_8_point_radix2,,uvm,,,,,,
