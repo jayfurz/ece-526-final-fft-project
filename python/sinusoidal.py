@@ -22,9 +22,13 @@ def main():
     real_part = np.int16(real_part * np.iinfo(np.int16).max)
     imag_part = np.int16(imag_part * np.iinfo(np.int16).max)
 
-    # Write the real and imaginary parts to separate files
-    np.savetxt('real_part.txt', real_part, fmt='%i')
-    np.savetxt('imag_part.txt', imag_part, fmt='%i')
+    # Combine real and imaginary parts
+    combined = np.vstack((real_part, imag_part)).T
+
+    # Write to a hex file
+    with open(f"{f}hz_{A}amp_sinusoidal.txt", 'w') as f:
+        for sample in combined:
+            f.write(f"{sample[0]:04x} {sample[1]:04x}\n")
 
 if __name__ == '__main__':
     main()
